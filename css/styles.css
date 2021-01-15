@@ -1,0 +1,225 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --special-color: #2196f3;
+  --white-color: #ffffff;
+}
+
+/* var(--primary-text-color);*/
+
+/* ================================ SPECIALS ================================*/
+.list {
+  list-style-type: none;
+}
+
+.navigation-list-link,
+.navigation-list-link .studio-link,
+.logo-web,
+.header-mail,
+.header-phone,
+.button,
+.address-link,
+.footer-mail,
+.footer-phone {
+  text-decoration: none;
+}
+
+.hero-h,
+.uppercase {
+  text-transform: uppercase;
+}
+
+.hidden {
+  display: none;
+}
+
+html {
+  line-height: 1.15;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+/* ================================ COLORS ================================*/
+
+.header,
+.header > .navigation-list-link,
+.section-2,
+.section-3 {
+  color: var(--title-text-color);
+  background-color: var(--white-color);
+}
+
+.hero,
+.footer {
+  background-color: #2f303a;
+}
+
+.section-4 {
+  background: #f5f4fa;
+}
+
+.logo-web,
+.studio-link,
+.header-mail {
+  color: var(--special-color);
+}
+
+.header-phone,
+p,
+body {
+  color: var(--primary-text-color);
+}
+
+.hero-h,
+.button,
+.footer-logo-studio,
+.address-link {
+  color: var(--white-color);
+}
+
+.button {
+  background-color: var(--special-color);
+  border: none;
+}
+
+.footer-mail,
+.footer-phone {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.logo-web > .logo-studio,
+.header-logo-studio,
+.navigation-list-link,
+.our-team,
+.our-job,
+.section-name,
+.uppercase {
+  color: var(--title-text-color);
+}
+
+/* ================================ FONTS ================================*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.logo-web,
+.header-logo-studio,
+.footer-logo-studio {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.header-mail,
+.header-phone,
+.navigation-list-link,
+.footer-mail,
+.footer-phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+}
+
+.hero-h {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.uppercase {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+}
+
+.our-team,
+.our-job {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.section-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+}
+
+.section-job {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.address-link,
+.footer-mail,
+.footer-phone {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* ================================HOVER AND FOCUS ================================*/
+
+.header-logo-studio:hover,
+.header-logo-studio:focus,
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-phone:hover,
+.header-phone:focus,
+.footer-logo-studio:hover,
+.footer-logo-studio:focus {
+  color: var(--special-color);
+}
+
+.header-mail:hover,
+.header-mail:focus,
+.studio-link:hover,
+.studio-link:focus,
+.button:hover,
+.button:focus {
+  color: #000000;
+}
