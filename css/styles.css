@@ -14,7 +14,7 @@
 /* var(--primary-text-color);*/
 
 /* ================================ FEATURES ================================*/
-.list,
+.our-team-list,
 .navigation-list-item,
 .specials-items {
   list-style-type: none;
@@ -70,7 +70,7 @@ img {
 .header,
 .header > .navigation-list-link,
 .specials,
-.what-we-do{
+.what-we-do {
   color: var(--title-text-color);
   background-color: var(--white-color);
 }
@@ -80,7 +80,7 @@ img {
   background-color: #2f303a;
 }
 
-.section-4 {
+.team-section {
   background: #f5f4fa;
 }
 
@@ -182,7 +182,6 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.143;
-
 }
 
 .our-team,
@@ -243,7 +242,6 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
-  
 }
 .container {
   width: 1200px;
@@ -278,9 +276,8 @@ body {
 .hero {
   padding-top: 200px;
   height: 600px;
-
 }
-.hero-title{
+.hero-title {
   margin-bottom: 30px;
 }
 
@@ -292,8 +289,7 @@ body {
 
 /* ================================ SPECIALS BLOCKS ================================*/
 
-
-.specials-items{ 
+.specials-items {
   display: flex;
   align-items: center;
 }
@@ -302,12 +298,12 @@ body {
   margin-right: 30px;
 }
 
-.uppercase{
-margin-bottom: 10px;
-margin-top: 94px;
+.uppercase {
+  margin-bottom: 10px;
+  margin-top: 94px;
 }
 
-.hidden-list-item{
+.hidden-list-item {
   width: 270px;
   margin-bottom: 94px;
 }
@@ -318,32 +314,32 @@ margin-top: 94px;
   display: flex;
 }
 
-.list:not(:last-child){
+.our-tem-list:not(:last-child) {
   margin-right: 30px;
 }
 
-.our-job-title{
+.our-job-title {
   padding-bottom: 50px;
 }
 
-.list{
+.list {
   padding-bottom: 94px;
 }
 
+/* ================================ WHAT-WE-DO BLOCKS ================================*/
 
-
-
-/*
-50px между заголовком и п 
-94 px до нижнего блока
-
-
-
-.hidden-list-item:not(:last-child) {
-  margin-right: 50px;
-
-/* 
-.hidden-list-item {
-  display: flex;
+.our-team-list {
+  margin-right: 30px;
 }
 
+.card-person {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+  margin-top: -30px;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+}
