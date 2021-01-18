@@ -280,6 +280,7 @@ body {
 .hero {
   padding-top: 200px;
   height: 600px;
+  padding-bottom: 94px;
 }
 .hero-title {
   margin-bottom: 30px;
@@ -295,7 +296,7 @@ body {
 
 .specials-items {
   display: flex;
-  align-items: center;
+  flex-basis: calc(100% / 4 - 30px);
 }
 
 .hidden-list-items:not(:last-child) {
@@ -309,7 +310,10 @@ body {
 
 .hidden-list-items {
   width: 270px;
-  margin-bottom: 94px;
+}
+
+.specials {
+  padding-bottom: 94px;
 }
 
 /* ================================ WHAT-WE-DO BLOCKS ================================*/
@@ -352,6 +356,11 @@ body {
   margin: 0;
 }
 
+.our-team-items {
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
 .our-team-items:not(:last-child) {
   margin-right: 30px;
 }
@@ -371,6 +380,10 @@ body {
 
 /* ================================ FOOTER BLOCKS ================================*/
 
+.footer {
+  padding-bottom: 60px;
+}
+
 .logo-web {
   font-style: normal;
 }
@@ -381,9 +394,10 @@ body {
 }
 
 .address-tel-phone-part {
-  padding-bottom: 60px;
 }
 
 .address-items:not(:last-child) {
   margin-bottom: 9px;
 }
+
+/* ПАДДИНГИ В СЕКЦИЯХ КАК В 3 */

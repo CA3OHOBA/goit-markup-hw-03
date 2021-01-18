@@ -16,9 +16,8 @@
 /* ================================ FEATURES ================================*/
 .our-team-list,
 .navigation-list-items,
-.specials-items,
-.what-we-do-list,
-.card-person-list {
+.address-tel-phone-title,
+.filters {
   list-style-type: none;
 }
 
@@ -27,21 +26,10 @@
 .logo-web,
 .header-mail,
 .header-phone,
-.button,
 .address-link,
 .footer-mail,
-.footer-phone,
-.card-person-list {
+.footer-phone {
   text-decoration: none;
-}
-
-.hero-title,
-.uppercase {
-  text-transform: uppercase;
-}
-
-.hidden {
-  display: none;
 }
 
 html {
@@ -71,20 +59,13 @@ img {
 /* ================================ COLORS ================================*/
 
 .header,
-.header > .navigation-list-link,
-.specials,
-.what-we-do {
+.header > .navigation-list-link {
   color: var(--title-text-color);
   background-color: var(--white-color);
 }
 
-.hero,
 .footer {
   background-color: #2f303a;
-}
-
-.team-section {
-  background: #f5f4fa;
 }
 
 .logo-web,
@@ -100,25 +81,9 @@ body {
 }
 
 .hero-title,
-.button,
 .footer-logo-studio,
 .address-link {
   color: var(--white-color);
-}
-
-.button {
-  background-color: var(--special-color);
-  border: none;
-
-  min-width: 200px;
-
-  padding: 10px;
-
-  background: var(--special-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-
-  cursor: pointer;
 }
 
 .footer-mail,
@@ -128,11 +93,7 @@ body {
 
 .logo-web > .logo-studio,
 .header-logo-studio,
-.navigation-list-link,
-.our-team-title,
-.our-job-title,
-.section-name,
-.uppercase {
+.navigation-list-link {
   color: var(--title-text-color);
 }
 
@@ -162,50 +123,6 @@ body {
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
-}
-
-.hero-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-}
-
-.button {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.8;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-}
-
-.uppercase {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.143;
-}
-
-.our-team-title,
-.our-job-title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-}
-
-.section-name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.187;
-  text-align: center;
-}
-
-.section-job {
-  font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
 }
 
 .address-link,
@@ -275,97 +192,29 @@ body {
   margin-right: 92px;
 }
 
-/* ================================ HERO BLOCKS ================================*/
-.hero {
-  padding-top: 200px;
-  height: 600px;
-}
-.hero-title {
-  margin-bottom: 30px;
-}
-
-.button {
-  display: block;
-  align-items: center;
-  margin: 0 auto;
-}
+/* ================================ PORTFOLIO BLOCKS ================================*/
 
 /* ================================ SPECIALS BLOCKS ================================*/
 
-.specials-items {
-  display: flex;
-  align-items: center;
-}
-
-.hidden-list-items:not(:last-child) {
-  margin-right: 30px;
-}
-
-.uppercase {
-  margin-bottom: 10px;
-  margin-top: 94px;
-}
-
-.hidden-list-items {
-  width: 270px;
-  margin-bottom: 94px;
-}
-
 /* ================================ WHAT-WE-DO BLOCKS ================================*/
 
-.what-we-do-list {
-  display: flex;
-}
-
-.our-job-title {
-  padding-bottom: 50px;
-}
-
-.what-we-do-list-items:not(:last-child) {
-  margin-right: 30px;
-}
-
-.what-we-do {
-  padding-bottom: 94px;
-}
 /* ================================ OUR TEAM BLOCKS ================================*/
 
-.our-team-title {
-  padding-top: 94px;
-  margin-bottom: 50px;
-}
-
-.card-person-list:not(:last-child) {
-  margin-right: 30px;
-}
-
-.card-person-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
-}
-
-.list {
-  padding: 0;
-  margin: 0;
-}
-
-.our-team-items:not(:last-child) {
-  margin-right: 30px;
-}
-
-.team-section {
-  padding-bottom: 94px;
-}
-
-.section-name {
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
-.section-job {
-  margin-bottom: 30px;
-}
-
 /* ================================ FOOTER BLOCKS ================================*/
+
+.logo-web {
+  font-style: normal;
+}
+
+.logo-web-part {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.address-tel-phone-part {
+  padding-bottom: 60px;
+}
+
+.address-items:not(:last-child) {
+  margin-bottom: 9px;
+}
