@@ -32,8 +32,7 @@
 .address-link,
 .footer-mail,
 .footer-phone,
-.card-person-list,
-.logo-web {
+.card-person-list {
   text-decoration: none;
 }
 
@@ -371,6 +370,10 @@ body {
 }
 
 /* ================================ FOOTER BLOCKS ================================*/
+
+.logo-web {
+  font-style: normal;
+}
 
 .logo-web-part {
   padding-top: 60px;
