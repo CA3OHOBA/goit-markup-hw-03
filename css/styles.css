@@ -18,7 +18,8 @@
 .navigation-list-items,
 .specials-items,
 .what-we-do-list,
-.card-person-list {
+.card-person-list,
+.address-tel-phone-title {
   list-style-type: none;
 }
 
@@ -31,7 +32,8 @@
 .address-link,
 .footer-mail,
 .footer-phone,
-.card-person-list {
+.card-person-list,
+.logo-web {
   text-decoration: none;
 }
 
@@ -369,3 +371,16 @@ body {
 }
 
 /* ================================ FOOTER BLOCKS ================================*/
+
+.logo-web-part {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.address-tel-phone-part {
+  padding-bottom: 60px;
+}
+
+.address-items:not(:last-child) {
+  margin-bottom: 9px;
+}
