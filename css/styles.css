@@ -383,7 +383,6 @@ body {
 .footer {
   padding-bottom: 60px;
 }
-
 .logo-web {
   font-style: normal;
 }
@@ -393,11 +392,19 @@ body {
   padding-bottom: 20px;
 }
 
-.address-tel-phone-part {
-}
-
 .address-items:not(:last-child) {
   margin-bottom: 9px;
 }
 
-/* ПАДДИНГИ В СЕКЦИЯХ КАК В 3 */
+.social {
+  text-transform: uppercase;
+  color: var(--white-color);
+  font-family: "Roboto";
+  font-style: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  line-height: 100%;
+  letter-spacing: 3%;
+}
+
+/* 44 x 44 */
