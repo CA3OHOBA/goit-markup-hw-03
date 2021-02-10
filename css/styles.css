@@ -194,6 +194,7 @@ img {
 */
 
 .hero {
+ 
   background-color: var(--footer-background-color);
 }
 
@@ -207,7 +208,7 @@ img {
   text-transform: uppercase;
 }
 
-.hero .button {
+.hero-button {
   color: var(--white-color);
   background-color: var(--brand-color);
   font-weight: 700;
