@@ -83,7 +83,7 @@ img {
 
 .page-header {
   background-color: var(--white-color);
-  border-bottom: 1px solid #000;
+  border: 1px solid #ECECEC;
 }
 
 .header-container{
@@ -335,11 +335,11 @@ img {
 
 .footer {
   background-color: var(--footer-background-color);
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 .footer .logo {
   color: var(--white-color);
-   margin-top: 60px;
   margin-bottom: 20px;
 }
 
@@ -359,36 +359,86 @@ img {
 
 /*------------------- PORTFOLIO -------------------*/
 
-.portfolio-section .title {
-  color: var(--primary-text-color);
 
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+.portfolio{
+  padding-top: 100px;
+  padding-bottom: 94px;
 }
 
-.portfolio-section .type {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.87;
+
+/* FILTER  */
+.filter-list{
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
 }
 
-/* PORTFOLIO BUTTONS:HOVER :FOCUS */
+.filter-list-item:not(:last-child){
+  margin-right: 8px;
+}
+
+
 .filter-button {
   background-color: var(--secondary-backround-color);
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  padding: 6px 22px;
   cursor: pointer;
+  border-radius: 4px;
+  border: none;
 }
 
 .filter-button:hover,
 .filter-button:focus {
   color: var(--white-color);
   background-color: var(--brand-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+  0px 1px 2px rgba(0, 0, 0, 0.08),
+  0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
+/* .filter-list button:hover{
+    border-color: transparent;
+    outline: none;
+} */
+
+
+/* WORKS */
+
+
+.portfolio-section-item{
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  width: 370px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.portfolio-section-list .title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  margin-top: 20px;
+  margin-bottom: 4px;
+
+}
+
+.portfolio-section-list .type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  margin-bottom: 20px;  
+}
+
+
+
+
 
 
 /* 3 домашка 
