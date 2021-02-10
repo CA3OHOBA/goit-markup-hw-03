@@ -1,13 +1,21 @@
-/*
-COLORS:
-black: #212121
-gray: #757575
-white: #FFFFFF
-blue: #2196F3
-background-color: #F5F4FA
+:root {
+  --brand-color: #2196f3;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --white-color: #ffffff;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+  --background-color: #e5e5e5;
+  --secondary-backround-color: #f5f4fa;
+  --footer-background-color: #2f303a;
+}
 
-var(--primary-text-color);
-*/
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
 
 a {
   text-decoration: none;
@@ -31,12 +39,10 @@ ol {
   list-style: none;
 }
 
-*,
-::after,
-::before {
-  box-sizing: border-box;
-}
 
+img {
+  display: block;
+}
 
 
 
@@ -47,20 +53,7 @@ ol {
   margin: 0 auto;
 }
 
-img {
-  display: block;
-}
 
-:root {
-  --brand-color: #2196f3;
-  --primary-text-color: #212121;
-  --secondary-text-color: #757575;
-  --white-color: #ffffff;
-  --footer-link-color: rgba(255, 255, 255, 0.6);
-  --background-color: #e5e5e5;
-  --secondary-backround-color: #f5f4fa;
-  --footer-background-color: #2f303a;
-}
 
 
 
@@ -68,7 +61,6 @@ img {
 
 .page {
   color: var(--secondary-text-color);
-  background-color: var(--background-color);
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
 }
@@ -87,7 +79,7 @@ img {
 
 
 
-/*---------- HEADER ----------*/
+/*------------------- HEADER -------------------*/
 
 .page-header {
   background-color: var(--white-color);
@@ -187,11 +179,11 @@ img {
 
 
 
-/*   
 
-            HERO *************************************************************************************************
 
-*/
+/*------------------- HERO -------------------*/
+
+
 
 .hero {
   height: 600px;
@@ -231,17 +223,32 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-/*   
 
-            SECTION 1 WITH HIDDEN H2  *********************************************************
-
-*/
+/*------------------- SECTION FEATURES (WITH HIDDEN H2) -------------------*/
 
 .hidden {
   display: none;
 }
 
-.features .title {
+
+.features{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.features-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.features-list-item {
+  width: 270px;
+}
+.features-list-item:last-child{
+  margin-right: 0;
+}
+
+.features-list-item .title {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -249,22 +256,36 @@ img {
   text-transform: uppercase;
 }
 
-.features .text {
+.features-list-item .text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  margin-top: 10px
 }
-/*   
 
-            SECTION 2 WHAT WE ARE DOING  *********************************************************
 
-*/
 
-/*   
+/*------------------- SECTION  WHAT WE ARE DOING -------------------*/
 
-             SECTION 3 OUR TEAM  *********************************************************
- 
-*/
+
+.what-we-do-title{
+  padding-bottom: 50px;
+}
+
+
+.what-we-do-list{
+  display: flex;
+}
+
+
+.what-we-do-item:not(:last-child){
+  margin-right: 30px;
+}
+
+
+
+/*------------------- SECTION OUR TEAM-------------------*/
+
 .section.team {
   background-color: var(--secondary-backround-color);
 }
@@ -284,11 +305,9 @@ img {
   text-align: center;
 }
 
-/*   
 
-            FOOTER  *********************************************************
+/*------------------- FOOTER -------------------*/
 
-*/
 .footer {
   background-color: var(--footer-background-color);
 }
@@ -306,11 +325,9 @@ img {
   font-style: normal;
 }
 
-/*   
 
-            PORTFOLIO  *********************************************************
 
-*/
+/*------------------- PORTFOLIO -------------------*/
 
 .portfolio-section .title {
   color: var(--primary-text-color);
