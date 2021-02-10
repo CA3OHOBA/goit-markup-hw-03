@@ -100,24 +100,6 @@ img {
     align-items: center;
 }
 
-
-/* LOGO */
-.logo {
-  color: #000000;
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  display: inline-block;
-  margin-right: 93px;
-}
-
-.logo-web {
-  color: var(--brand-color);
-}
-
-
-
 /* NAV */
 
 .site-nav,
@@ -132,6 +114,22 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+
+/* LOGO */
+.logo {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  display: inline-block;
+  margin-right: 93px;
+}
+
+.logo-web {
+  color: var(--brand-color);
 }
 
 /* MENU */
@@ -155,7 +153,8 @@ img {
 
 
 
-/* ADDRESS */
+/* CONTACTS */
+
 .header-contacts{
     display: flex;
    margin-left: auto;
@@ -325,6 +324,7 @@ img {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  cursor: pointer;
 }
 
 .filter-button:hover,
