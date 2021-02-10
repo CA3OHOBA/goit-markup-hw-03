@@ -194,7 +194,11 @@ img {
 */
 
 .hero {
- 
+  height: 600px;
+  display: flex;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--footer-background-color);
 }
 
@@ -202,10 +206,11 @@ img {
   color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
-  text-align: center;
+  margin: 0 auto 30px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  width: 696px;
 }
 
 .hero-button {
@@ -214,11 +219,16 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  display: inline-block;
+  padding: 10px 32px;
   letter-spacing: 0.06em;
   border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-button:hover{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /*   
