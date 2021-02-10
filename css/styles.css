@@ -130,11 +130,13 @@ img {
   display: flex;
 }
 
-.menu-lisy-item .link{
+.header-contact-item .header-contact-link,
+.site-nav .link{
   padding-top: 32px;
   padding-bottom: 32px;
   display: inline-block;
 }
+
 .menu-list-item:not(:last-child){
   margin-right: 50px;
 }
@@ -155,12 +157,7 @@ img {
   margin-right: 30px;
 }
 
-.header-contact-item .header-contact-link,
-.link{
-  padding-top: 32px;
-  padding-bottom: 32px;
-  display: inline-block;
-}
+
 
 .header-contact-link{
   color: var(--secondary-text-color);
@@ -338,9 +335,12 @@ img {
 
 .footer {
   background-color: var(--footer-background-color);
+  padding-bottom: 60px;
 }
 .footer .logo {
   color: var(--white-color);
+   margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .footer .address {
@@ -349,8 +349,10 @@ img {
 }
 
 .footer .link {
+  display: inline-block;
   color: var(--fotter-link-color);
   font-style: normal;
+  margin-top: 9px;
 }
 
 
