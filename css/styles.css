@@ -134,16 +134,16 @@ img {
 
 /* MENU */
 
-.menu{
+.menu-list{
     display: flex;
 }
 
-.menu-item .link{
+.menu-lisy-item .link{
     padding-top: 32px;
     padding-bottom: 32px;
     display: inline-block;
 }
-.menu-item:not(:last-child){
+.menu-list-item:not(:last-child){
     margin-right: 50px;
 }
 
