@@ -278,7 +278,8 @@ img {
 
 
 .what-we-do-item:not(:last-child){
-  margin-right: 30px;
+  padding-right: 30px;
+  padding-bottom: 94px;
 }
 
 
