@@ -414,6 +414,7 @@ img {
 .portfolio-div{
   border: 1px solid #EEEEEE;
   border-top: none;
+  padding: 20px 24px;
 }
 
 
@@ -449,7 +450,6 @@ box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin: 20px 20px 4px 20px;
 }
 
 .portfolio-section-list .type {
@@ -457,9 +457,6 @@ box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  margin-bottom: 20px;  
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 
