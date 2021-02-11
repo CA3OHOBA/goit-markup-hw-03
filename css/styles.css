@@ -453,7 +453,7 @@ box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-section-list .type {
-  color: #757575;
+  color: var(--secondary-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
