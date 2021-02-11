@@ -416,13 +416,15 @@ img {
   border: 1px solid #EEEEEE;
   box-sizing: border-box;
   width: 370px;
-  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .portfolio-section-list{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 
 .portfolio-section-list .title {
