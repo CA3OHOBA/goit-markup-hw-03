@@ -42,6 +42,7 @@ ol {
 
 img {
   display: block;
+  width: 100%;
 }
 
 
@@ -410,6 +411,21 @@ img {
 
 /* WORKS */
 
+.portfolio-div{
+  border: 1px solid #EEEEEE;
+  border-top: none;
+}
+
+
+.portfolio-section-link{
+  display: inline-block;
+}
+
+
+.portfolio-section-link:hover,
+.portfolio-section-link:focus{
+box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 .portfolio-section-item{
   background: #FFFFFF;
